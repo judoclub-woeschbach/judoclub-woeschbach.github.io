@@ -68,6 +68,8 @@ nav.main ul li a {
   color: white;
   font-size: 24px;
   margin-top: 15vh; }
+  .quote .quote-italique {
+    font-style: italic; }
 
 .backgrounds {
   position: absolute;
