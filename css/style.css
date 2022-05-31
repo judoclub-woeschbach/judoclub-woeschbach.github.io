@@ -1,160 +1,17 @@
-body {
-  background: #96DEF6; }
-
-nav.main ul li a {
-  color: #212121; }
-@media (max-width: 600px) {
-  nav.main .brand-logo {
-    font-size: 18px; } }
-@media (max-width: 400px) {
-  nav.main .brand-logo {
-    font-size: 15px; } }
-
-.content {
-  position: relative;
-  z-index: 100;
-  width: 100%;
-  height: 100vh; }
-
 .header {
-  margin-top: 25vh;
-  text-align: center; }
-  @media (max-width: 1000px) {
-    .header {
-      margin-top: 18vh; } }
-  @media (max-width: 650px) {
-    .header {
-      margin-top: 15vh; } }
-  .header h1 {
-    color: white;
-    font-size: 75px;
-    margin-bottom: 0; }
-    @media (max-width: 1000px) {
-      .header h1 {
-        font-size: 50px; } }
-  .header h2 {
-    color: white;
-    font-size: 40px;
-    margin-top: 5px; }
-    @media (max-width: 1000px) {
-      .header h2 {
-        font-size: 25px; } }
-  .header .links {
-    margin-top: 6em; }
-  .header ul li {
-    display: inline-block;
-    margin-top: 0.7em; }
-    .header ul li a {
-      padding: 8px 1em 8px 8px;
-      color: #2D9CDB;
-      font-size: 20px; }
-      @media (max-width: 1000px) {
-        .header ul li a {
-          font-size: 16px; } }
-  @media (max-width: 650px) {
-    .header ul {
-      margin-top: 2em;
-      width: 100%; }
-      .header ul li {
-        display: block;
-        text-align: center; }
-        .header ul li a {
-          padding: 16px;
-          margin-right: 0;
-          margin-top: 10px;
-          margin-left: -16px; } }
+    height: 50vh;
+}
 
-.quote {
-  color: white;
-  font-size: 24px;
-  margin-top: 15vh; }
-  .quote .quote-italique {
-    font-style: italic; }
+.content-item {
+    margin-top: 6rem;
+}
 
-.backgrounds {
-  position: absolute;
-  top: 0;
-  left: 0;
-  right: 0; }
-  .backgrounds .background {
-    background: #96DEF6;
-    width: 150vw;
-    height: 35em;
-    transform: rotate(15deg);
-    margin-left: -25vw;
-    margin-right: -25vw; }
-    @media (max-width: 1000px) {
-      .backgrounds .background {
-        margin-left: -20vw;
-        margin-right: -20vw;
-        height: 30em; } }
-    .backgrounds .background:nth-child(2n) {
-      background: #BDEBFA !important;
-      transform: rotate(-15deg); }
+.container {
+    padding-left: 10rem;
+    padding-right: 10rem;
+}
 
-.card-title {
-  font-size: 30px;
-  color: #212121;
-  margin-bottom: 0.4em; }
-
-.content-main {
-  height: auto; }
-
-.about .text {
-  line-height: 1.75; }
-
-.logo {
-  display: flex;
-  align-items: center; }
-  .logo img {
-    width: 50%;
-    height: 50%;
-    margin: 0 auto; }
-    @media (max-width: 1000px) {
-      .logo img {
-        width: 65%;
-        height: 65%; } }
-
-.row-margin {
-  margin-top: 3.5em; }
-
-.trainings .title-row {
-  width: 100%; }
-.trainings table td {
-  vertical-align: top; }
-
-.trainer .card-title {
-  margin-top: 0; }
-.trainer .card-image {
-  width: 320px;
-  height: 320px;
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center; }
-.trainer .trainer-img {
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center;
-  height: 400px;
-  width: 100%; }
-  .trainer .trainer-img.christin {
-    background-image: url("../img/Christin_1.png"); }
-  .trainer .trainer-img.udo {
-    background-image: url("../img/Udo_2.jpeg"); }
-  .trainer .trainer-img.silvio {
-    background-image: url("../img/silvio_1.jpeg"); }
-
-#kontakt .text span {
-  display: block;
-  line-height: 28px;
-  font-size: 17px; }
-
-@media (max-width: 1000px) {
-  .margin-on-md {
-    margin-top: 2.5em;
-    display: block; } }
-
-.padding-left {
-  padding-left: 15px; }
-
-/*# sourceMappingURL=style.css.map */
+.trainer-img {
+    width: 10em;
+    height: auto;
+}

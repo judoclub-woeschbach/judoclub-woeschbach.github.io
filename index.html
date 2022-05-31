@@ -5,7 +5,7 @@
     <title>Judoclub Wöschbach 2002 e.V.</title>
     <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Roboto:300,400,500,700" type="text/css">
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/css/materialize.min.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
     <link rel="stylesheet" href="css/style.css">
 
     <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
@@ -13,261 +13,119 @@
           content="Homepage des Judoclub Wöschbachs 2002 e.V. mit Trainingszeiten und Kontaktinformationen">
     <meta name="author" content="Judoclub Wöschbach 2002 e.V.">
 </head>
-<body>
+<body class="pb-5">
 
-<!-- nav -->
-<div class="navbar-fixed">
-    <nav class="main white">
-        <div class="nav-wrapper">
-            <div class="container">
-                <a href="#start" class="brand-logo grey-text text-darken-4">
-                    <span>Judoclub Wöschbach</span>
-                </a>
-                <a href="#" data-activates="mobile-demo" class="button-collapse"><i class="material-icons grey-text text-darken-4">menu</i></a>
-                <ul class="right hide-on-med-and-down">
-                    <li><a href="#ueber_uns">Über uns</a></li>
-                    <li><a href="#aktuelles">Aktuelles</a></li>
-                    <li><a href="#trainingszeiten">Trainingszeiten</a></li>
-                    <li><a href="#trainer">Trainer</a></li>
-                    <li><a href="#kontakt">Kontakt</a></li>
-                </ul>
+
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <div class="container">
+        <a class="navbar-brand" href="#">Judoclub Wöschbach</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+            <div class="navbar-nav">
+                <a class="nav-link active" aria-current="page" href="#">Über uns</a>
+                <a class="nav-link" href="#">Aktuelles</a>
+                <a class="nav-link" href="#">Trainingszeiten</a>
+                <a class="nav-link" href="#">Trainer</a>
+                <a class="nav-link" href="#">Kontakt</a>
             </div>
         </div>
-    </nav>
-</div>
-<ul class="side-nav" id="mobile-demo">
-    <li><a href="#ueber_uns">Über uns</a></li>
-    <li><a href="#aktuelles">Aktuelles</a></li>
-    <li><a href="#trainingszeiten">Trainingszeiten</a></li>
-    <li><a href="#trainer">Trainer</a></li>
-    <li><a href="#kontakt">Kontakt</a></li>
-</ul>
+    </div>
+</nav>
 
 
-
-<!-- backgrounds -->
-<!--
-<div class="backgrounds">
-    <div class="background" style="z-index: 9; margin-top: 10em;"></div>
-    <div class="background" style="z-index: 8"></div>
-    <div class="background" style="z-index: 7"></div>
-    <div class="background" style="z-index: 6"></div>
-    <div class="background" style="z-index: 5"></div>
-    <div class="background" style="z-index: 4"></div>
-    <div class="background" style="z-index: 3"></div>
-    <div class="background" style="z-index: 2"></div>
-    <div class="background" style="z-index: 1"></div>
-</div>-->
-
-
-<div class="content" id="start" >
+<div class="container-fluid bg-dark header d-flex align-items-center">
     <div class="container">
-        <!-- header -->
         <div class="row">
-            <!-- quote -->
-            <div class="col s12 m1"></div>
-            <div class="col s12 m4">
-                <div class="quote hide-on-small-only">
-                    <span class="quote-italique">“Die Menschen sind Rivalen im
-                    Wettkampf, aber
-                    geeint und Freunde durch ihr Ideal in der
-                    Ausübung ihres Sportes und noch mehr
-                        im täglichen Leben” <br></span>
-                    - Jigoro Kano, der Begründer des Judo
-                </div>
+            <div class="col-md-8 d-flex align-items-center flex-column justify-content-center">
+                <figure>
+                    <blockquote class="blockquote">
+                        <p class="text-white w-100 fst-italic">“Die Menschen sind Rivalen im Wettkampf, aber geeint und Freunde durch ihr Ideal in der Ausübung ihres Sportes und noch mehr im täglichen Leben” </p>
+                    </blockquote>
+                    <figcaption class="blockquote-footer">
+                        <cite class="text-white w-100 ">Jigoro Kano, der Begründer des Judo </cite>
+                    </figcaption>
+                </figure>
+
             </div>
-            <div class="col s12 m1"></div>
-
-            <!-- header right -->
-            <div class="col s12 m6">
-                <div class="header">
-                    <h1>Judoclub <br> Wöschbach</h1>
-                    <h2>2002 e.V.</h2>
-
-                    <div class="links">
-                        <div class="card-panel white">
-                            <ul>
-                                <li><a href="#ueber_uns">Über uns</a></li>
-                                <li><a href="#aktuelles">Aktuelles</a></li>
-                                <li><a href="#trainingszeiten">Trainingszeiten</a></li>
-                                <li><a href="#trainer">Trainer</a></li>
-                                <li><a href="#kontakt">Kontakt</a></li>
-                            </ul>
-                        </div>
-                    </div>
-                </div>
+            <div class="col-md-4">
+                <img class="img-fluid" src="img/header_image.png" alt="">
             </div>
         </div>
     </div>
 </div>
 
-<div class="content content-main">
-    <div class="container">
-        <!-- about/news -->
-        <div class="row">
-            <!-- news -->
-            <div class="col s12 m12 l6">
 
-                <!-- logo -->
-                <div class="card-panel white logo hide-on-med-and-down">
-                    <img src="img/logo.png" alt="">
-                </div>
+<div class="container content-item">
+    <div class="row bg-dark">
+        <h4 class="text-white p-4 mb-0">Über uns</h4>
+    </div>
 
-                <!-- news -->
-                <div class="card-panel white news" id="aktuelles">
-                    <h4 class="card-title">Aktuelles</h4>
-                    <span class="text gray-text text-darken-4" id="news-content">
-                    </span>
-                </div>
-            </div>
+    <div class="row mt-3">
+        <p>
+            Am Anfang des Vereins stand die Idee, eine Sportart für Kinder zu finden, die sowohl Körper als auch Geist fordert und fördert. Wir bekamen das Angebot eines bekannten Judotrainers, diese Sportart mit interessierten Kindern und Jugendlichen zu üben.
+        </p>
+        <p>
+            Beim Judo wird die Koordination geschult, man lernt Regeln einzuhalten, Selbstvertrauen und Selbstbewusstsein werden gestärkt. Schnell fanden sich über zwanzig Kinder, die nach einigem Training auch die erste Gürtelprüfung ablegen sollten. Doch eine Prüfung ist nur in einem dem Verband angehörenden Verein möglich.
+        </p>
+        <p>
+            Die Gründungsversammlung des neuen Judoclubs fand am 21. Februar 2002 statt. Inzwischen trainieren über 50 Kinder aus Pfinztal in vier Altersgruppen bei uns. Sechs Judoka aus dem Verein haben bereits die Prüfung zum Assistenztrainer abgelegt. Drei Trainer, alle Träger des schwarzen Gürtels, davon zwei mit Prüferlizenz, leiten das Training. Zusätzlich zum sportlichen Angebot gehen wir einmal im Jahr ein Wochenende zelten. Hallenübernachtungen mit DVD-Nacht und die vom Verband angebotene Judosafari gehören auch zum Freizeitangebot
+        </p>
+    </div>
+</div>
 
-            <!-- about -->
-            <div class="col s12 m12 l6 about" id="ueber_uns">
-                <div class="card-panel white">
-                    <h4 class="card-title">Über uns</h4>
-                    <span class="text gray-text text-darken-4">
-                      Am Anfang des Vereins stand die Idee, eine Sportart für Kinder zu finden,
-                      die sowohl Körper als auch Geist fordert und fördert.
-                      Wir bekamen das Angebot eines bekannten Judotrainers, diese Sportart mit interessierten Kindern und Jugendlichen zu üben.
-                      <br> <br> <br>
-                      Beim Judo wird die Koordination geschult, man lernt Regeln einzuhalten,
-                      Selbstvertrauen und Selbstbewusstsein werden gestärkt. Schnell fanden sich über zwanzig Kinder,
-                      die nach einigem Training auch die erste Gürtelprüfung ablegen sollten.
-                      Doch eine Prüfung ist nur in einem dem Verband angehörenden Verein möglich.
-                      <br> <br> <br>
-                      Die Gründungsversammlung des neuen Judoclubs fand am 21. Februar 2002 statt.
-                      Inzwischen trainieren über 50 Kinder aus Pfinztal in vier Altersgruppen bei uns.
-                      Sechs Judoka aus dem Verein haben bereits die Prüfung zum Assistenztrainer abgelegt.
-                      Drei Trainer, alle Träger des schwarzen Gürtels, davon zwei mit Prüferlizenz, leiten das Training.
-                      Zusätzlich zum sportlichen Angebot gehen wir einmal im Jahr ein Wochenende zelten.
-                      Hallenübernachtungen mit DVD-Nacht und die vom Verband angebotene Judosafari gehören auch zum Freizeitangebot
-                    </span>
-                </div>
-            </div>
-        </div>
+<div class="container content-item">
+    <div class="row bg-dark">
+        <h4 class="text-white p-4 mb-0">Aktuelles</h4>
+    </div>
 
-        <div class="row-margin">
-            <!-- Trainingszeiten -->
-            <div class="card-panel white trainings" id="trainingszeiten">
-                <div class="row title-row padding-left">
-                    <h4 class="card-title">Trainingszeiten</h4>
-                </div>
+    <div class="row mt-3">
+        <p>
+            Unsere diesjährige Jahreshauptversammlung findet am 5.Mai um 20 Uhr im Gasthaus Paradiso statt.
+            Alle Mitglieder ab 18 Jahre und alle Eltern der minderjährigen Mitglieder sind herzlich eingeladen.
+            Im Moment findet eine Trainingsgruppe um 17.15 Uhr bei Udo Albrecht statt.
+        </p>
+    </div>
+</div>
 
-                <div class="row">
-                    <div class="col s12 m6">
-                        <table>
-                            <tr>
-                                <td>Donnerstag <br> (Selbstverteidigung)</td>
-                                <td>20:30 - 22:00</td>
-                            </tr>
-                            <tr>
-                                <td>Freitag <br> (Judo-Training)</td>
-                                <td>
-                                    15:00 - 16:00 <br>
-                                    16:00 - 17:00 <br>
-                                    17:15 - 18:15
-                                </td>
-                            </tr>
-                        </table>
-                    </div>
+<div class="container content-item">
+    <div class="row bg-dark">
+        <h4 class="text-white p-4 mb-0">Trainer</h4>
+    </div>
 
-                    <div class="col s12 m6">
-                        <span class="trainings-info margin-on-md">
-                            Die Trainingsgruppen werden nach Alter, Größe und Gürtelfarbe der Judoka individuell eingeteilt.
-                            Bei Interesse wenden sie sich daher bitte an <a href="#contact">Judith Wagner</a>.
-                        </span>
-                    </div>
-                </div>
+    <div class="row mt-3">
+        <div class="media d-flex">
+            <img class="mr-3 align-self-start trainer-img" src="img/Udo_2.jpeg" alt="Portrait von Udo Albrecht">
+            <div class="media-body px-3">
+                <h5 class="mt-0" style="width: 100%">Udo Albrecht</h5>
+                <p>
+                    Er ist Träger des schwarzen Gürtels und hat eine Prüferlizenz.
+                    <br>
+                    Udo leitet eine Gruppe am Freitag und übernimmt das Training für die Prüfungsvorbereitung.
+                </p>
             </div>
         </div>
-
-        <!-- Trainer cards -->
-        <div class="row-margin row" id="trainer">
-            <!-- Christine -->
-            <div class="col s12 m6 l4">
-                <div class="card trainer">
-                    <div class="trainer-img christin">
-                    </div>
-                    <div class="card-content">
-                        <h4 class="card-title">Kristin Anielack</h4>
-                        <p>
-                            Ich bin Kristin, im Alter von 9 Jahren begann ich mit Judo und konnte nie wieder aufhören.
-                            <br> <br>
-                            Mit 18 Jahren legte ich die Prüfung zum 1. Dan ( schwarzer Gürtel) ab.
-                            <br> <br>
-                            Als Jugendliche war ich eine sehr erfolgreiche Wettkampfsportlerin,
-                            habe in der Bundesliga gekämpft und eine wundervolle Zeit mit meiner Mannschaft erlebt.
-                            Mit 21 Jahren verließ ich die Wettkampfmatte und wurde Trainerin.
-                            <br> <br>
-                            Seit nunmehr 12 Jahren trainiere ich die kleinen Nachwuchsjudoka.
-                            Mir ist die individuelle Entwicklung der Kinder ab 5 Jahren sehr wichtig, mit viel Spaß und vielen Spielen führe ich
-                            unsere Jüngsten zum ersten Gürtel.
-                        </p>
-                    </div>
-                </div>
-            </div>
-
-            <!-- Udo -->
-            <div class="col s12 m6 l4">
-                <div class="card trainer">
-                    <div class="trainer-img udo">
-                    </div>
-                    <div class="card-content">
-                        <h4 class="card-title">Udo Albrecht</h4>
-                        <p>
-                            Er ist Träger des schwarzen Gürtels und hat eine Prüferlizenz. <br> <br>
-                            Udo leitet eine Gruppe am Freitag und übernimmt das Training für die Prüfungsvorbereitung.
-                        </p>
-                    </div>
-                </div>
-            </div>
-
-            <!-- Silvio -->
-            <div class="col s12 m6 l4">
-                <div class="card trainer">
-                    <div class="trainer-img silvio">
-                    </div>
-                    <div class="card-content">
-                        <h4 class="card-title">Silvio Anielack</h4>
-                        <p>
-                            Er ist Träger des schwarzen Gürtels und hat eine Prüferlizenz. <br> <br>
-                            Silvio leitet das Training am Donnerstag.
-                        </p>
-                    </div>
-                </div>
-            </div>
-        </div>
-
-
-        <!-- Kontakt -->
-        <div class="row-margin" id="kontakt">
-            <div class="card-panel white contact">
-                <div class="row title-row padding-left">
-                    <h4 class="card-title">Kontakt</h4>
-                </div>
-
-                <div class="row">
-                    <div class="col s12 m6 text">
-                        <span>Judith Wagner</span>
-                        <span>judith.wagner@gmx.de </span>
-                        <span>07240/36172</span>
-                    </div>
-
-                    <div class="col s12 m6">
-                        <span class="trainings-info margin-on-md">
-                            Bei jeglichen Fragen melden sie sich bitte einfach bei uns, <br>
-                            wir freuen uns über ihr Interesse.
-                        </span>
-                    </div>
-                </div>
+    </div>
+    <div class="row mt-3">
+        <div class="media d-flex">
+            <img class="mr-3 align-self-start trainer-img d-flex" src="img/silvio_1.jpeg" alt="Portrait von Silvio Anielack">
+            <div class="media-body px-3">
+                <h5 class="mt-0" style="width: 100%">Silvio Anielack</h5>
+                <p>
+                    Er ist Träger des schwarzen Gürtels und hat eine Prüferlizenz.
+                    <br>
+                    Silvio leitet das Training am Donnerstag.
+                </p>
             </div>
         </div>
     </div>
 </div>
+
 
 
 <script src="js/jquery.js"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/js/materialize.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
 <script src="js/index.js"></script>
 </body>
 </html>

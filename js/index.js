@@ -1,5 +1,6 @@
 $(function(){
 
+    /*
     $(".button-collapse").sideNav();
 
     //load the news card
@@ -33,6 +34,6 @@ $(function(){
                 }
             });
         } // End if
-    });
+    }); */
 
 });
