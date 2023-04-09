@@ -1,0 +1,122 @@
+
+
+#news {
+    margin-top: 3em;
+}
+
+
+.right-side {
+    padding: 0em 3em 0;
+    max-width: 1000px;
+}
+
+.left-side {
+    background: rgb(61, 79, 93);
+    color: #fff;
+}
+
+.inner-padding {
+    padding: 3em;
+}
+
+.logo {
+    width: 100px;
+    height: 100px;
+}
+
+.title {
+    padding-left: 0em;
+}
+
+.title-sub {
+    margin-top: 0px;
+}
+
+.title-top {
+    margin-bottom: 0.2em;
+}
+
+#training-times-container {
+    display: flex;
+    flex-direction: row;
+    align-items: center; /* Align vertical */
+    justify-content: flex-start;
+}
+
+#training-times-exclamation-mark {
+    text-align: center;
+    font-size: 40px;
+    margin-left: 1em;
+    margin-right: 0.5em;
+}
+
+#trainings-times-text {
+}
+
+.content-item {
+    margin-top: 3em;
+}
+
+h3 {
+    margin-bottom: 0px;
+}
+
+.trainer {
+    display: flex;
+}
+
+.trainer-image {
+    width: 100px;
+    height: 100%;
+}
+
+.trainer-text {
+    flex: 90%;
+    margin-left: 20px;
+}
+
+
+p, span, h1, h2, h3, h4, h5, h6 {
+    font-family: 'Fira Sans', sans-serif;
+}
+
+#impressum {
+    color: white;
+
+}
+
+#maps-big {
+    display: none;
+}
+#maps-small {
+    display: block;
+}
+
+@media (min-width: 64em) {
+    .left-side {
+        position: fixed;
+        top: 0;
+        bottom: 0;
+    }
+
+    .right-side {
+        padding: 2em 5em 0;
+        margin-left: 25%;
+    }
+
+    #news {
+        margin-top: 8em!important;
+    }
+
+    #impressum {
+        position: absolute;
+        bottom: 50px;
+    }
+
+    #maps-big {
+        display: block;
+    }
+    #maps-small {
+        display: none;
+    }
+}
