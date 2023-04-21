@@ -113,6 +113,10 @@ p, span, h1, h2, h3, h4, h5, h6 {
         bottom: 50px;
     }
 
+    #aufnahmeantrag {
+        color: white
+    }
+
     #maps-big {
         display: block;
     }
