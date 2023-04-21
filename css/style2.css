@@ -82,7 +82,10 @@ p, span, h1, h2, h3, h4, h5, h6 {
 
 #impressum {
     color: white;
+}
 
+#aufnahmeantrag {
+    color: white
 }
 
 #maps-big {
@@ -111,10 +114,6 @@ p, span, h1, h2, h3, h4, h5, h6 {
     #impressum {
         position: absolute;
         bottom: 50px;
-    }
-
-    #aufnahmeantrag {
-        color: white
     }
 
     #maps-big {
