@@ -3,7 +3,7 @@ $(function(){
     $(".button-collapse").sideNav();
 
     //load the news card
-    $.get("/aktuelles.html", function(news){
+    $.get("aktuelles.html", function(news){
         console.log(news);
         $("#news-content").html(news);
     });
